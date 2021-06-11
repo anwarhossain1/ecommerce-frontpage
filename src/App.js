@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.scss";
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from './components/carousel';
+import Navbar from './components/Navbar/navbar';
+import Card from "./components/Cards/Card";
+import Navbar2 from "./components/Navbar/navbar2";
+import Navbar3 from "./components/Navbar/navbar3";
+import Cards from "./components/Cards/Cards";
+import BigS from "./components/Cards/BigS";
+import Footer from "./components/Footer/Footer";
+import Construction from "./components/Cards/Construction";
 
 function App() {
+  const nav3=[
+    'Grocery',
+    'Beauty/Personal Care',
+    'Toys',
+    'Fashion',
+    'Electronics',
+    'Appliance',
+    'Home & Furniture',
+    'Pharmacy',
+    'Flower',
+    'Construction'
+  ]
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Navbar/>
+      <Navbar2/>
+      <Navbar3/>
+     <Carousel/>
+     <div className="img-date"><span>Valid 5/19/21 - 6/13/21</span></div>
+     <Cards/>
+     <BigS/>
+     <Construction/>
+     <Footer/>
     </div>
   );
 }
