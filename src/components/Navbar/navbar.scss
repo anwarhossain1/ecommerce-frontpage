@@ -1,23 +1,21 @@
+.main-nav{
+    background-color:#131921;
+}
 .smart-cart{
     img{
-        height: 20px;
-    width: 40px;
-    //padding-bottom: 5px;
+    height: 60px;
+    width: 220px;
+    margin-top: -15px;
+    margin-bottom: -7px;
     }
-    span{
-
-        text-align: center;
-        color: white;
-        //font-size: 25px;
-    }
-    
 }
 
 .mb-3{
     height: 20px;
     //position: relative;
-    width: 1000px;
-    margin-left: 100px;
+    width: 1200px;
+    //margin-left: 100px;
+    margin-top: 5px;
 }
 
 .camera{
@@ -41,7 +39,7 @@
     height: 50px;
     width: 50px;
     background-color: transparent;
-    margin-top: -13px;
+    margin-top: -10px;
     margin-left: 15px;
 
 }
@@ -54,5 +52,13 @@
     padding: 5px 10px 5px 10px;
     font-size: 10px;
     
+    
+}
+.app{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    margin-top: -10px;
+    margin-left: 15px;
     
 }

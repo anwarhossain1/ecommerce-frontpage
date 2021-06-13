@@ -1,7 +1,7 @@
 import React from 'react'
 import {Navbar,Nav,Container, InputGroup, FormControl, Dropdown} from "react-bootstrap";
 import subNav from './subNav';
-import scart from '../../images/shopping-cart.png';
+import scart from '../../images/logo.png';
 import camera from '../../images/camera.png';
 import search from '../../images/search.png';
 import bd from '../../images/bangladesh.png';
@@ -12,18 +12,17 @@ import "./navbar.scss";
 const navbar = () => {
     return (
       <>
-        <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
+        <Navbar className="main-nav" collapseOnSelect expand="sm" variant="dark">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse>
             <Nav>
               <Nav.Link className="smart-cart">
                 <img src={scart} />
-                <span>Smart cart</span>
               </Nav.Link>
               <InputGroup className="mb-3">
                 <InputGroup.Prepend>
                   <Dropdown>
-                    <Dropdown.Toggle variant="success" id="dropdown-basic">
+                    <Dropdown.Toggle variant="success" id="dropdown-basic" style={{backgroundColor:'#f1f2f2',color:'#a89f93',borderColor:'#f1f2f2'}}>
                       All
                     </Dropdown.Toggle>
 
@@ -54,7 +53,7 @@ const navbar = () => {
               </InputGroup>
               <Nav.Link><img className='bangladesh' src={bd} /></Nav.Link>
               <Nav.Link><img className='signin' src={signIn}/><span style={{fontSize:"10px",color:'white',fontWeight:'bold'}}>Sign In/Join Free</span></Nav.Link>
-              <Nav.Link><img className='bangladesh' src={app}/>Apps</Nav.Link>
+              <Nav.Link><img className='app' src={app}/>Apps</Nav.Link>
               <Nav.Link><img className='bangladesh' src={cart}/>Cart</Nav.Link>
               
               {/* <Nav.Link>language dropdown</Nav.Link> */}

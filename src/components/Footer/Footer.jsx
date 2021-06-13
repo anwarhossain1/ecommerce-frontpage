@@ -95,13 +95,13 @@ const Footer = () => {
 </ul>
 
 <p className="text-center">Copyright @2017 | Designed With by <a href="#">Your Company Name</a></p>
-
+{/* 
 <ul className="social_footer_ul">
 <li><a href="http://webenlance.com"><i className="fab fa-facebook-f"></i></a></li>
 <li><a href="http://webenlance.com"><i className="fab fa-twitter"></i></a></li>
 <li><a href="http://webenlance.com"><i className="fab fa-linkedin"></i></a></li>
 <li><a href="http://webenlance.com"><i className="fab fa-instagram"></i></a></li>
-</ul>
+</ul> */}
 
 </div>
 
