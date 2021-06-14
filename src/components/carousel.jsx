@@ -1,6 +1,7 @@
 import React from "react";
 import './carousel.scss';
 import { Carousel } from 'react-bootstrap';
+import cover from '../images/cover.png';
 
 
 class BootstrapCarouselComponent extends React.Component {
@@ -17,26 +18,17 @@ class BootstrapCarouselComponent extends React.Component {
           <Carousel.Item style={{'height':"300px"}}  >  
           <img style={{'height':"300px"}}  
           className="d-block w-100"  
-         src="https://picsum.photos/500/300?img=1"  />  
-            <Carousel.Caption>  
-              <h3>First Demo </h3>  
-                  </Carousel.Caption>  
+          src={cover}  />  
                   </Carousel.Item  >  
                   <Carousel.Item style={{'height':"300px"}}>  
                   <img style={{'height':"300px"}}  
                     className="d-block w-100"  
-                     src="https://picsum.photos/500/300?img=1"  />  
-                        <Carousel.Caption>  
-                    <h3>Second Demo</h3>  
-                       </Carousel.Caption>  
+                     src={cover}  />   
                           </Carousel.Item>  
                         <Carousel.Item style={{'height':"300px"}}>  
                         <img style={{'height':"300px"}}  
                          className="d-block w-100"  
-                          src="https://picsum.photos/500/300?img=1"  />  
-                         <Carousel.Caption>  
-                           <h3>Third Demo</h3>  
-                           </Carousel.Caption>  
+                          src={cover}  />  
                           </Carousel.Item>  
                          </Carousel>  
                  </div>  

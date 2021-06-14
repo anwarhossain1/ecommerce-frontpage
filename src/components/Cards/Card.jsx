@@ -13,12 +13,13 @@ const CardP = () => {
       <div>
         <Container fluid>
           <Row>
-            <Col>
+            <Col sm={12} lg={2}>
             <Card style={{ paddingLeft: "10px", width: "18rem" }}>
-          <ButtonGroup aria-label="Basic example">
+          <ButtonGroup style={{marginTop:'10px'}} aria-label="Basic example">
             <Button
               style={{
                 marginRight: "3px",
+                marginRight: "8px",
                 backgroundColor: "black",
                 border: "none",
               }}
@@ -28,6 +29,7 @@ const CardP = () => {
             <Button
               style={{
                 marginLeft: "3px",
+                marginRight: "8px",
                 backgroundColor: "red",
                 border: "none",
               }}
@@ -63,9 +65,9 @@ const CardP = () => {
         </Card>
             
             </Col>
-            <Col>
+            <Col sm={12} lg={2}>
             <Card style={{ paddingLeft: "10px", width: "18rem" }}>
-          <ButtonGroup aria-label="Basic example">
+          <ButtonGroup style={{marginTop:'10px'}} aria-label="Basic example">
             <Button
               style={{
                 marginRight: "3px",
@@ -78,6 +80,7 @@ const CardP = () => {
             <Button
               style={{
                 marginLeft: "3px",
+                marginRight: "8px",
                 backgroundColor: "red",
                 border: "none",
               }}
@@ -113,9 +116,9 @@ const CardP = () => {
         </Card>
             
             </Col>
-            <Col>
+            <Col sm={12} lg={2}>
             <Card style={{ paddingLeft: "10px", width: "18rem" }}>
-          <ButtonGroup aria-label="Basic example">
+          <ButtonGroup style={{marginTop:'10px'}} aria-label="Basic example">
             <Button
               style={{
                 marginRight: "3px",
@@ -128,6 +131,7 @@ const CardP = () => {
             <Button
               style={{
                 marginLeft: "3px",
+                marginRight: "8px",
                 backgroundColor: "red",
                 border: "none",
               }}
@@ -163,12 +167,13 @@ const CardP = () => {
         </Card>
             
             </Col>
-            <Col>
+            <Col sm={12} lg={2}>
             <Card style={{ paddingLeft: "10px", width: "18rem" }}>
-          <ButtonGroup aria-label="Basic example">
+          <ButtonGroup style={{marginTop:'10px'}} aria-label="Basic example">
             <Button
               style={{
                 marginRight: "3px",
+                marginRight: "8px",
                 backgroundColor: "black",
                 border: "none",
               }}
@@ -213,9 +218,9 @@ const CardP = () => {
         </Card>
             
             </Col>
-            <Col>
+            <Col sm={12} lg={2}>
             <Card style={{ paddingLeft: "10px", width: "18rem" }}>
-          <ButtonGroup aria-label="Basic example">
+          <ButtonGroup style={{marginTop:'10px'}} aria-label="Basic example">
             <Button
               style={{
                 marginRight: "3px",
@@ -228,6 +233,7 @@ const CardP = () => {
             <Button
               style={{
                 marginLeft: "3px",
+                marginRight: "8px",
                 backgroundColor: "red",
                 border: "none",
               }}
@@ -264,9 +270,9 @@ const CardP = () => {
         </Card>
             
             </Col>
-            <Col lg={2}>
+            <Col sm={12} lg={2}>
             <Card style={{ paddingLeft: "10px", width: "18rem" }}>
-          <ButtonGroup aria-label="Basic example">
+          <ButtonGroup style={{marginTop:'10px'}} aria-label="Basic example">
             <Button
               style={{
                 marginRight: "3px",
@@ -279,6 +285,7 @@ const CardP = () => {
             <Button
               style={{
                 marginLeft: "3px",
+                marginRight: "8px",
                 backgroundColor: "red",
                 border: "none",
               }}

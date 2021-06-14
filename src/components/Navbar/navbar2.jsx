@@ -2,13 +2,14 @@ import React from 'react'
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import './navbar2.scss';
 import hamburger from '../../images/menu(1).png';
-const navbar2 = () => {
+import DrawerToggleButton from '../DrawerToggleButton';
+const navbar2 = (props) => {
     return (
         <>
         <Navbar expand="sm"  className='naav' variant="dark">
     
             <Nav>
-              <Nav.Link><img src={hamburger} style={{width:'1rem'}}/>All</Nav.Link>
+              <Nav.Link><DrawerToggleButton click={props.drawerClickHandler} /></Nav.Link>
               <Nav.Link>Weekly Ad</Nav.Link>
               <Nav.Link>Sell On Smartcart</Nav.Link>
               <Nav.Link>Investor</Nav.Link>

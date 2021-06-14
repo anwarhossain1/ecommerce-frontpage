@@ -4,11 +4,9 @@ import uni from '../../images/unimart.png';
 import './construction.scss';
 const Construction = () => {
     return (
-      <>
-        <Form.Label className="label">CONSTRUCTION & REAL ESTATE</Form.Label>
-        <hr className="hori" />
-        <Container>
-          <Row>
+      <div style={{position:'relative'}}>
+        <Container fluid style={{position:'relative'}}>
+          <Row fluid >
             <Col>
               <img style={{ width: "18rem" }} src={uni} />
             </Col>
@@ -56,7 +54,7 @@ const Construction = () => {
             <Col sm>sm=true</Col>
           </Row> */}
         </Container>
-      </>
+      </div>
     );
 }
 
